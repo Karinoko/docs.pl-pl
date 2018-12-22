@@ -22,19 +22,19 @@ W poniższej tabeli przedstawiono rozmiary i zakresy typów całkowitych, które
   
 |Typ|Zakres|Rozmiar|  
 |----------|-----------|----------|  
-|[sbyte](sbyte.md)|-128 do 127 znaków.|8-bitową liczbę całkowitą ze znakiem|  
-|[byte](byte.md)|od 0 do 255|Liczba całkowita bez znaku 8-bitowa|  
-|[char](char.md)|U + 0000 do U + ffff|Znak 16-bitowych Unicode|  
-|[short](short.md)|-32768 do 32767.|16-bitową liczbę całkowitą ze znakiem|  
-|[ushort](ushort.md)|0 do 65 535.|Liczba całkowita bez znaku 16-bitowych|  
-|[int](int.md)|-2 147 483 2 147 483 648 do 647|32-bitowa liczba całkowita ze znakiem|  
-|[uint](uint.md)|4 294 967 0 Aby 295|Liczba całkowita bez znaku 32-bitowy|  
+|[sbyte](sbyte.md)|-128 do 127 znaków.|8-bitowa liczba całkowita ze znakiem|  
+|[byte](byte.md)|0 do 255|8-bitowa liczba całkowita bez znaku|  
+|[char](char.md)|U + 0000 do U + ffff|16-bitowy znak Unicode|  
+|[short](short.md)|-32,768 do 32,767.|16-bitową liczbę całkowitą ze znakiem|  
+|[ushort](ushort.md)|0 do 65,535.|Liczba całkowita bez znaku 16-bitowych|  
+|[int](int.md)|-2,147,483,648 do 2,147,483,647|32-bitowa liczba całkowita ze znakiem|  
+|[uint](uint.md)|0 do 4,294,967,295|Liczba całkowita bez znaku 32-bitowy|  
 |[long](long.md)|-9,223,372,036,854,775,808 do 9,223,372,036,854,775,807|64-bitowa liczba całkowita ze znakiem|  
-|[ulong](ulong.md)|0 — 18,446,744,073,709,551,615|Liczba całkowita bez znaku 64-bitowych|  
+|[ulong](ulong.md)|0 do 18,446,744,073,709,551,615|64-bitowa liczba całkowita bez znaku|  
 
 ## <a name="remarks"></a>Uwagi
   
-Jeśli wartości w postaci literału typu integer przekracza <xref:System.UInt64.MaxValue?displayProperty=nameWithType>, błąd kompilatora [CS1021](../../misc/cs1021.md) występuje.
+Jeśli wartości w postaci literału typu integer przekracza <xref:System.UInt64.MaxValue?displayProperty=nameWithType>, wystąpi błąd kompilatora [CS1021](../../misc/cs1021.md).
 
 Użyj <xref:System.Numerics.BigInteger?displayProperty=nameWithType> klasy do reprezentowania dowolnie dużą całkowita.
   
